@@ -12,6 +12,8 @@
   },
   "keywords": [
     "bitarray",
+    "bitset",
+    "boolarray",
     "boolean array",
     "booleans",
     "buffer"
