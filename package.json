@@ -1,0 +1,28 @@
+{
+  "name": "zo-bitarray",
+  "version": "1.0.0",
+  "description": "Memory efficient Boolean array implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zero0-1one/bitarray.git"
+  },
+  "keywords": [
+    "bitarray",
+    "boolean array",
+    "booleans",
+    "buffer"
+  ],
+  "author": "zero0-1one",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zero0-1one/bitarray/issues"
+  },
+  "homepage": "https://github.com/zero0-1one/bitarray#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
