@@ -103,6 +103,6 @@ Memory efficient Boolean array implementation, very easy to use
 - `xor`(other)
 
 ## Other
-- fill(val, begin, end)
-- cover(other, begin, end)
-- swap(other, begin, end)
+- `fill`(val, begin, end)
+- `cover`(other, begin, end)
+- `swap`(other, begin, end)
