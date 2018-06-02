@@ -40,7 +40,7 @@ Memory efficient Boolean array implementation, very easy to use
     length: 100,
     rawdata: [1227133513, 2454267026, 613566756, 9]
   }
-  let ba = new BitArray(data) // 100100100.....100   100 bits  
+  let ba = new BitArray(data) // 100100100.....1001    100 bits  
 ```
 ## Attribute
 - length
