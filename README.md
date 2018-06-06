@@ -36,11 +36,15 @@ Memory efficient Boolean array implementation, very easy to use
   let ba = new BitArray('1010101010') // 1010101010
   new BitArray(ba) // 1010101010
 
-  let data = {  //Usually get from  BitArray.rawData()
+
+  let data = {  //Usually get from  rawData()
     length: 100,
     rawdata: [1227133513, 2454267026, 613566756, 9]
   }
-  let ba = new BitArray(data) // 100100100.....1001    100 bits  
+  ba = new BitArray(data) // 100100100.....1001    100 bits  
+
+  //string start with '@' from compactData()
+  ba = new BitArray('@0001fnHfD-L1u=Zb$7!A00009') // 100100100.....1001    100 bits  
 ```
 ## Attribute
 - length
@@ -82,13 +86,17 @@ Memory efficient Boolean array implementation, very easy to use
 - toString()
 - toArray()
 - rawData()
+- compactData()
 ```js
   let ba = new BitArray('1010101010') 
   ba.toString() //'1010101010'
   ba.toArray() // [1,0,1,0,1,0,1,0,1,0]
 
-  //More compact data
-  ba.rawData() //{length:10,rawdata:[341]}
+  //More efficient data
+  ba.rawData() // {length:10,rawdata:[341]}
+
+  //More compact data 
+  ba.compactData() //'@0000a00041'
 ```
 ##  Bit Operation
 - `get`(index)

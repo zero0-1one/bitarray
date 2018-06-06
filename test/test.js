@@ -279,6 +279,12 @@ describe('array', function () {
     assert(ba.equal(ba2))
   })
 
+  it('compactData', function () {
+    let ba = createBitArray(100)
+    let ba2 = new BitArray(ba.compactData())
+    assert(ba.equal(ba2))
+  })
+  
   it('toString', function () {
     let ba = createBitArray(100)
     let ba2 = new BitArray(ba.toString())
