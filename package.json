@@ -1,6 +1,6 @@
 {
   "name": "zo-bitarray",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Memory efficient Boolean array implementation",
   "main": "index.js",
   "scripts": {
